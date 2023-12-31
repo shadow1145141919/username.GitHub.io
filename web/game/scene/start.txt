@@ -1,0 +1,28 @@
+; 初始场景，以及特效演示
+bgm:s_Title.mp3;
+unlockBgm:s_Title.mp3 -name=雲を追いかけて;
+changeBg:xiyang.png -next;
+changeFigure:songrong.png -next;
+setAnimation:shake -target=fig-center -next;
+松茸:测试一下角色能不能平移 -fontSize=default;
+
+讷穆:然后是切换立绘 -fontSize=default -center;
+changeFigure:nemu.png;
+讷穆:换个背景 -fontSize=default;
+changeBg:jinjichang.png;
+changeFigure:选择立绘文件;
+路特斯:哈哈 因为gif不支持没法纵火 只能测试关立绘了 -fontSize=default;
+changeFigure:spitfire1.png;
+但是我可以改bgm！ -fontSize=default -center;
+bgm:bandicam-2023-06-10-20-09-44-247.mp3 -volume=100;
+intro:我要抓走你的妈妈|全屏文字好像只能直接改背景 -fontSize=large -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+changeFigure:选择立绘文件;
+bgm:s_Title.mp3;
+:可以隐藏角色名 -fontSize=default;
+changeBg:c1.2.png -duration=500 -transform={} -unlockname=好像还能解锁cg诶;
+:好像可以解锁cg|但因为是视觉小说的原因 要看全图只能点下面的隐藏 -fontSize=default;
+miniAvatar:spitfire1.png;
+:甚至能当电灯泡 -fontSize=default;
+bgm:none;
+路特斯:好了大概就这样吧 -fontSize=default;
+end;
