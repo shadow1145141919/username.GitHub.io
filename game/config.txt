@@ -1,0 +1,6 @@
+Game_name:tof测试;
+Game_key:9c97dd077c2cd38;
+Title_img:02.png;
+Title_bgm:s_Title.mp3;
+Textbox_theme:imss;
+Game_Logo:WebGAL_New_Enter_Image.png;
